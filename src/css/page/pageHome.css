@@ -1,0 +1,306 @@
+body,
+html {
+  background-color: #eae9e9;
+}
+.food-main .food-header {
+  height: 15.3rem;
+}
+.food-main .food-header .swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.food-main .food-header .swiper-container .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.food-main .food-header .swiper-container .swiper-wrapper .swiper-slide .img {
+  width: 100%;
+  height: auto;
+}
+.food-main .food-header .swiper-container .swiper-pagination {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  background-color: #434242;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.food-main .food-main-list {
+  width: 100%;
+  text-align: center;
+  padding: 7px 0 5px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+.food-main .food-main-list a {
+  display: block;
+  width: 25%;
+  float: left;
+  color: #666666;
+  font-size: 13px;
+  text-align: center;
+}
+.food-main .food-main-list a span {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 4px;
+}
+.food-main .food-main-list .food-main-list-imperialCrown .food-main-list-imperialCrown-pic {
+  background: #fc5353 url(../../image/list-1.png) no-repeat center center;
+  background-size: 2.2rem auto;
+}
+.food-main .food-main-list .food-main-list-haver .food-main-list-haver-pic {
+  background: #fc5353 url(../../image/list-2.png) no-repeat center center;
+  background-size: 2.2rem auto;
+}
+.food-main .food-main-list .food-main-list-material .food-main-list-material-pic {
+  background: #fc5353 url(../../image/cirle.png) no-repeat center center;
+  background-size: 2.2rem auto;
+}
+.food-main .food-main-list .food-main-list-artificial .food-main-list-artificial-pic {
+  background: #fc5353 url(../../image/Android-green.png) no-repeat center center;
+  background-size: 2.2rem auto;
+}
+.food-main .food-main-sheet {
+  background-color: #eae9e9;
+  width: 100%;
+  padding: 0 10px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.food-main .food-main-sheet .food-main-sheet-message {
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 5%;
+  margin-bottom: 15px;
+  border-radius: 35%;
+  padding: 5px 15px;
+}
+.food-main .food-main-menu {
+  background-color: #eae9e9;
+  width: 100%;
+}
+.food-main .food-main-menu .food-main-menu-wrap {
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-des {
+  font-size: 17px;
+  color: #fc5353;
+  padding: 10px 0 0 10px;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-list {
+  margin: 10px 10px 0 10px;
+  overflow: hidden;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-list .food-main-menu-wrap-list-pic {
+  float: left;
+  width: 6.2rem;
+  height: 6.2rem;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-list .food-main-menu-wrap-list-pic .img {
+  width: 100%;
+  height: auto;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-list .food-main-menu-wrap-list-right {
+  margin-left: 7rem;
+  color: #666666;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-list .food-main-menu-wrap-list-right .food-main-menu-wrap-list-right-message {
+  font-size: 1rem;
+  display: block;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-list .food-main-menu-wrap-list-right .food-main-menu-wrap-list-right-des {
+  display: block;
+  font-size: 1rem;
+  color: #d0d0d0;
+}
+.food-main .food-main-menu .food-main-menu-wrap .food-main-menu-wrap-list .food-main-menu-wrap-list-right .food-main-menu-wrap-list-right-time {
+  color: #666666;
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+.food-footer {
+  width: 100%;
+  height: 4rem;
+  background-color: #2a2a2a;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.food-footer a {
+  display: block;
+  float: left;
+  width: 25%;
+  color: #c5c2c2;
+  font-size: 1rem;
+  padding-top: 2.2rem;
+  padding-bottom: 0.5rem;
+}
+.food-footer .food-footer-house {
+  background: url(../../image/f-home.png) no-repeat center 4px;
+  background-size: 1.7rem auto;
+}
+.food-footer .food-footer-house1 {
+  background: url(../../image/house-1.png) no-repeat center 4px;
+  background-size: 1.7rem auto;
+}
+.food-footer .food-footer-search {
+  background: url(../../image/f-search.png) no-repeat center 4px;
+  background-size: 1.7rem auto;
+}
+.food-footer .food-footer-search1 {
+  background: url(../../image/f-search.png) no-repeat center 4px;
+  background-size: 1.7rem auto;
+}
+.food-footer .food-footer-sort {
+  background: url(../../image/f-2.png) no-repeat center 4px;
+  background-size: 1.7rem auto;
+}
+.food-footer .food-footer-my {
+  background: url(../../image/my.png) no-repeat center 4px;
+  background-size: 1.2rem auto;
+}
+.food-footer .food-footer-house-active {
+  background-color: #353535;
+}
+.food-search {
+  height: 100%;
+}
+.food-search .food-search-header {
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+.food-search .food-search-header .food-search-header-title {
+  font-size: 19px;
+  color: #333333;
+  display: block;
+  line-height: 4rem;
+}
+.food-search .food-search-main .food-search-main-pic {
+  height: 8.2rem;
+  background: url(../../image/search-bg1.png) no-repeat left top;
+  background-size: 100% auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.food-search .food-search-main .food-search-main-pic .food-search-main-pic-search {
+  width: 100%;
+  position: absolute;
+  left: 10px;
+  top: 2.8rem;
+}
+.food-search .food-search-main .food-search-main-pic .food-search-main-pic-search .food-search-main-pic-search-int {
+  height: 2.3rem;
+  border: none;
+  outline: none;
+  float: left;
+  background: #ffffff url(../../image/AspJZY.png) no-repeat 10px center;
+  background-size: 1.2rem auto;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-indent: 30px;
+  width: 70%;
+}
+.food-search .food-search-main .food-search-main-pic .food-search-main-pic-search .food-search-main-pic-search-pic2 {
+  float: left;
+  width: 2.3rem;
+  height: 2.3rem;
+  background: #ffffff url(../../image/mic.png) no-repeat center center;
+  background-size: 1.2rem auto;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+}
+.food-search .food-search-main .food-search-main-pic .food-search-main-pic-search .food-search-main-pic-search-btn {
+  float: left;
+  width: 3.6rem;
+  height: 2.3rem;
+  background-color: #fc5353;
+  border: none;
+  color: #fff;
+  margin-left: 10px;
+}
+.food-search .food-search-main .food-search-main-list {
+  background-color: #f7f7f7;
+}
+.food-search .food-search-main .food-search-main-list .food-search-main-list-hotSearch {
+  display: block;
+  border-bottom: 1px solid #cccccc;
+  height: 3.9rem;
+  line-height: 3.9rem;
+  font-size: 1.1rem;
+  color: #333333;
+  padding: 0 9px 0 35px;
+  box-sizing: border-box;
+  background: url(../../image/search-eyes.png) no-repeat 12px center;
+  background-size: 1.1rem auto;
+}
+.food-search .food-search-main .food-search-main-list .food-search-main-list-hotSearch-right {
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  background: url(../../image/xiala.png) no-repeat center center;
+  background-size: 1rem auto;
+  margin-top: 1.4rem;
+}
+.food-sort {
+  width: 100%;
+  height: 100%;
+}
+.food-sort .food-sort-header {
+  width: 100%;
+  height: 4rem;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+}
+.food-sort .food-sort-header .food-sort-header-title {
+  color: #333333;
+  font-size: 19px;
+  line-height: 4rem;
+}
+.food-sort .food-sort-main {
+  margin: 10px 0 0 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.food-sort .food-sort-main .food-sort-main-list {
+  margin-right: 10px;
+  background-color: #f7f7f7;
+  flex: 1;
+}
+.food-sort .food-sort-main .food-sort-main-list .food-sort-main-list-content {
+  display: block;
+  background: url(../../image/Shape-1-copy-36.png) no-repeat center 7px;
+  background-size: 4.7rem auto;
+  padding-top: 5.9rem;
+  padding-bottom: 4px;
+  font-size: 1rem;
+  color: #333333;
+}
