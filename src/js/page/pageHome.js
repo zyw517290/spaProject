@@ -20,15 +20,20 @@ $(function(){
 		foodTab:function(){
 			$(".js-food .js-food-list").eq(0).show().siblings().hide()
 			$(".js-food-footer-anchor").on("click",function(){
-	////			每个页面的tab切换
+	//			每个页面的tab切换
 				$(this).addClass("food-footer-house-active").siblings().removeClass("food-footer-house-active");
 				$(".js-food .js-food-list").eq($(this).index()).show().siblings().hide();
-	//			spa的应用
-	//			获取当前对象的下标
-				var index = $(this).index(); 
+	//			spa的应用	
+				var index = $(this).index(); //			获取当前对象的下标
 				var para = $(this).data("anchor");
-				var tabUrl = location.href+"#"+para;
+				var tabUrl = location.href + "#" + para;
 				location.hash = "#" + para;
+			})
+			$(function(){
+					var para = $('.js-food-footer-anchor').data("anchor");
+					var tabUrl = location.href + "#" + para;
+					console.log(tabUrl);
+					location.hash = "#" + para;
 			})
 		}
 	}
